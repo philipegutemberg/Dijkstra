@@ -66,13 +66,3 @@ var concatPath = function (shortDistances, current, source, path) {
 
     return path;
 };
-
-// var graph = [
-//     [-1, 3, -1, 7, -1, 4],
-//     [3, -1, 2, 9, -1, -1],
-//     [-1, 2, -1, -1, 1, -1],
-//     [7, 9, -1, -1, 5, -1],
-//     [-1, -1, 1, 5, -1, -1],
-//     [4, -1, -1, -1, -1, -1]
-// ];
-// console.log('The short path is -> ' + this.Dijkstra(graph, 0, 4));
